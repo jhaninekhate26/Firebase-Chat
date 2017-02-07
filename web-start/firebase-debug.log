@@ -1,14 +1,14 @@
 [debug] ----------------------------------------------------------------------
-[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Dell Laptop\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Dell Laptop\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
 [debug] CLI Version:  3.2.2
 [debug] Platform:     win32
 [debug] Node Version: v6.9.4
-[debug] Time:         Tue Feb 07 2017 12:21:24 GMT+0800 (China Standard Time)
+[debug] Time:         Tue Feb 07 2017 12:38:22 GMT+0800 (China Standard Time)
 [debug] ----------------------------------------------------------------------
 [debug] 
-[info] Starting Firebase development server...
-[info] 
-[info] Project Directory: C:\Users\Dell Laptop\Documents\Firebase-Chat\web-start
-[info] Public Directory: ./
-[info] 
-[info] Server listening at: http://localhost:5000
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chat-1c657  
+ Tue Feb 07 2017 12:38:22 GMT+0800 (China Standard Time)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chat-1c657/tokens  
+ Tue Feb 07 2017 12:38:33 GMT+0800 (China Standard Time)
